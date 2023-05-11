@@ -70,7 +70,7 @@
     padding: 30px;
     border: solid 1px black;
     margin: 20px;
-    background-color:  rgba(101, 238, 174, 0.553);
+    background-color:  rgba(101, 238, 174, 0.504);
 }
 .nos{
     display: flex;
@@ -80,16 +80,28 @@
 
 }
 @media(max-width: 768px){
+    .titulo{
+        font-size: 100wv;
+        flex-direction: column;
+        text-align: center;
+      }
     .nos{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .titulo{
-        width: 75vw;
-    }
+    
     .exterior-abierto{
         max-width: 80%;
     }
+    .rotate-words{
+        
+         margin: 0;
+        
+    }
+    .d0s {
+        font-size: 25px;
+        margin-left: -20px;
+      }
 }

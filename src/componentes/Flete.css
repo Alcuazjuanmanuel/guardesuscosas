@@ -74,3 +74,17 @@
     transform: translateX(250px);
     transition-delay: 0s;
 }
+@media(max-width: 768px){
+    .flete{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        
+        margin:0 0 15px 170px;
+       
+        padding: 5px;
+        z-index: 9999;
+        border-radius: 50px;
+      }
+    }
+}

@@ -24,7 +24,7 @@ const Nosotros = () => {
 
         Frente a la necesidad del mercado actual trabajamos para evolucionar constantemente y mantener vigente la atracción del cliente.
         </p>
-        <img src="./src/assets/imagenes/patricio.jpg" alt="" className='exterior-abierto'/>
+        <img src="../src/assets/imagenes/patricio.jpg" alt="" className='exterior-abierto'/>
         </div>
         </div>
   )

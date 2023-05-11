@@ -70,3 +70,12 @@
     transform: translateX(250px);
     transition-delay: 0s;
 }
+@media(max-width: 768px){
+    .banner{
+        margin:0 0 15px 10px;
+    }
+    .card{
+        width: 120px;
+        height: 120px;
+    }
+}
