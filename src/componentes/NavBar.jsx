@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <a href="./"><img src="../src/assets/imagenes/logo.jpg" alt="" className="logo" /></a>
+        <a href="./"><img src="../assets/imagenes/logo.jpg" alt="" className="logo" /></a>
         
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="./"> <b> Nosotros </b></a>

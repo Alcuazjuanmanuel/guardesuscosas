@@ -13,7 +13,7 @@ const Consejos = () => {
             Forme una capa de pequeñas bolas con papel de periódico y cubra el fondo de las cajas previstas para el embalaje.
             Deposite los objetos más pesados en primer lugar y, sobre ellos, otra capa de papel. Siga de este modo con el resto de los objetos hasta llenar la caja.
         </p>
-        <img src="../src/assets/imagenes/descarga2.jpeg" alt="empleado transportando cajas" className='img-consejos'/>
+        <img src="../assets/imagenes/descarga2.jpeg" alt="empleado transportando cajas" className='img-consejos'/>
         </div>
         <h3>CON TODAS LAS GARANTIAS</h3>
         <p className='texto2'>Una vez elegida la agencia de transportes, compruebe que cumpla con los requisitos establecidos por la ley relacionados con el sector, que esté inscripta en el registro municipal y que disponga de un seguro de responsabilidad civil y de mercancías.
