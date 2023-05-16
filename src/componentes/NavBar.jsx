@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import BurguerButton from './BurguerButton'
 import logoImage from '../assets/imagenes/logo.jpg'
 
@@ -13,15 +14,26 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <a href="./"><img src={logoImage} alt="" className="logo" /></a>
-        
+      <Link to="/">
+          <img src={logoImage} alt="" className="logo" />
+        </Link>
+
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="/"> <b> Nosotros </b></a>
-          <a onClick={handleClick} href="/Servicios"><b> Servicios</b></a>
-          <a onClick={handleClick} href="/Consejos"><b> Consejos </b></a>
-          <a onClick={handleClick} href="/Contacto"><b> Contacto</b></a>
-          <a onClick={handleClick} href="/Preguntas"><b> FAQs</b></a>
-          
+          <Link onClick={handleClick} to="/">
+            <b> Nosotros </b>
+          </Link>
+          <Link onClick={handleClick} to="/Servicios">
+            <b> Servicios</b>
+          </Link>
+          <Link onClick={handleClick} to="/Consejos">
+            <b> Consejos </b>
+          </Link>
+          <Link onClick={handleClick} to="/Contacto">
+            <b> Contacto</b>
+          </Link>
+          <Link onClick={handleClick} to="/Preguntas">
+            <b> FAQs</b>
+          </Link>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
@@ -73,7 +85,9 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
     @media(min-width: 768px){
       position: initial;
       margin: 0;
+      
       a{
+        
         font-size: 1.2rem;
         color: white;
         display: inline;

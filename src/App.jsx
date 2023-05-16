@@ -20,10 +20,10 @@ function App() {
         <Hero/>
         <Routes>
           <Route exact  path="/" element={<Nosotros/>} />
-          <Route path="/Servicios/" element={<Servicios/>} />
-          <Route path="/Consejos/" element={<Consejos/>} />
-          <Route path="/Preguntas/" element={<Preguntas/>} />
-          <Route path="/Contacto/" element={<Contacto/>} />
+          <Route exact path="/Servicios" element={<Servicios/>} />
+          <Route exact path="/Consejos" element={<Consejos/>} />
+          <Route exact path="/Preguntas" element={<Preguntas/>} />
+          <Route exact path="/Contacto" element={<Contacto/>} />
         </Routes>
         <Venta/>
         <Flete/>
