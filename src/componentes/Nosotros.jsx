@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Nosotros.css"
-
+import Nosotros1 from '../assets/imagenes/patricio.jpg'
 
 const Nosotros = () => {
   return (
@@ -24,7 +24,7 @@ const Nosotros = () => {
 
         Frente a la necesidad del mercado actual trabajamos para evolucionar constantemente y mantener vigente la atracción del cliente.
         </p>
-        <img src="../assets/imagenes/patricio.jpg" alt="" className='exterior-abierto'/>
+        <img src={Nosotros1} alt="" className='exterior-abierto'/>
         </div>
         </div>
   )

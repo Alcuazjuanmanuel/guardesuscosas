@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Servicios.css"
+import Servicios1 from '../assets/imagenes/cintas.jpg'
+
 const Servicios = () => {
   return (
-    <div>
+    <div className='sevicios'>
         <h2 className='titulo'>Servicios</h2>
       <div >
         <h3>SERVICIO DE GUARDAMUEBLES:</h3>
@@ -14,7 +16,7 @@ const Servicios = () => {
             Diariamente se acumulan archivos o mobiliario fuera de uso que le quitan espacio útil a su oficina o espacio de trabajo. Nosotros le brindamos una solución que le permita optimizar el espacio disponible y aprovecharlo para atender a sus clientes con mayor comodidad.</p>
       </div>
             <div className='embalaje'>
-            <img src="../assets/imagenes/cintas.jpg" alt="cintas" className='cintas'/>
+            <img src={Servicios1} alt="cintas" className='cintas'/>
             <div><h3>PRODUCTOS Y SERVICIOS- EMBALAJE</h3>
             <p className='serv'>Adquiera aquí mismo todo lo que usted necesita para embalar y mantener sus pertenencias en perfectas condiciones.
             Cajas de distintos tamaños.
