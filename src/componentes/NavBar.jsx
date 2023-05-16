@@ -101,7 +101,7 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
     right: 0;
     text-align: center;
     a{
-      font-size: 2rem;
+      font-size: 1.1rem;
       margin-top: 1rem;
       color: white;
       background: rgba(0, 0, 0, 0.727);

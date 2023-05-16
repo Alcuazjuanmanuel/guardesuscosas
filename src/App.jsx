@@ -4,7 +4,7 @@ import NavBar from './componentes/NavBar'
 import './App.css'
 import Hero from './componentes/Hero'
 import Nosotros from './componentes/Nosotros'
-import Servicios from './componentes/Servicios'
+import Servicios from '../componentes/Servicios'
 import Consejos from './componentes/Consejos'
 import Preguntas from './componentes/Preguntas'
 import Footer from './componentes/Footer'
@@ -19,11 +19,11 @@ function App() {
         <NavBar/>
         <Hero/>
         <Routes>
-          <Route path="/" element={<Nosotros/>} />
-          <Route path="/Servicios" element={<Servicios/>} />
-          <Route path="/Consejos" element={<Consejos/>} />
-          <Route path="/Preguntas" element={<Preguntas/>} />
-          <Route path="/Contacto" element={<Contacto/>} />
+          <Route exact  path="/" element={<Nosotros/>} />
+          <Route path="/Servicios/" element={<Servicios/>} />
+          <Route path="/Consejos/" element={<Consejos/>} />
+          <Route path="/Preguntas/" element={<Preguntas/>} />
+          <Route path="/Contacto/" element={<Contacto/>} />
         </Routes>
         <Venta/>
         <Flete/>
