@@ -15,7 +15,7 @@ const Consejos = () => {
         </p>
         <img src={Descarga} alt="empleado transportando cajas" className='img-consejos'/>
         </div>
-        <h3>CON TODAS LAS GARANTIAS</h3>
+        <h3> TODAS LAS GARANTIAS</h3>
         <p className='texto2'>Una vez elegida la agencia de transportes, compruebe que cumpla con los requisitos establecidos por la ley relacionados con el sector, que esté inscripta en el registro municipal y que disponga de un seguro de responsabilidad civil y de mercancías.
             Firme el contrato solo cuando todo responda a sus exigencias. Puede solicitar un contrato de mudanzas homologado. En él, la empresa de mudanzas se responsabiliza de todos los desperfectos que pudiera causar y de que se cumplen todas las garantías detalladas en dicho contrato.
             Compruebe que en el contrato figuran los datos de la empresa de mudanzas, el inventario, el recorrido, la fecha de la mudanza y el precio.

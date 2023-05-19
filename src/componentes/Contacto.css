@@ -6,6 +6,7 @@
     background-image: url(../assets/imagenes/contacto.jpg);
     background-size: cover;
     
+    
 }
 .contacto p {
     font-size: 25px;
@@ -25,5 +26,9 @@ a{
     }
     .contacto p a{
         color: white;
+        font-size: 20px;
+    }
+    .contacto h3 {
+        font-size: 18px;
     }
 }

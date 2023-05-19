@@ -19,7 +19,7 @@ function Navbar() {
         </Link>
 
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <Link onClick={handleClick} to="/">
+          <Link  onClick={handleClick} to="/">
             <b> Nosotros </b>
           </Link>
           <Link onClick={handleClick} to="/Servicios">
@@ -48,7 +48,7 @@ export default Navbar
 
 const NavContainer = styled.nav`
 .logo{
-max-width: 30vw;
+max-width: 32vw;
 box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
 
   }
@@ -60,7 +60,7 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
   align-items: center;
   justify-content: space-between;
   a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin-right: 1rem;
    
@@ -77,8 +77,8 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
     
     transition: all .5s ease;
     a{
-      
-      color: white;
+      background : rgb(143, 139, 139, 0.771);
+      color: black;
       font-size: 2rem;
       display: block;
     }
@@ -115,11 +115,12 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
     left: 0;
     right: 0;
     text-align: center;
-    a{
+   
+    link{
       font-size: 1.1rem;
       margin-top: 1rem;
       color: white;
-      background: rgba(0, 0, 0, 0.727);
+      
     }
   }
   .burguer{
@@ -130,21 +131,23 @@ box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5) ;
 `
 
 const BgDiv = styled.div`
-  background-color: #222;
+  background-color: #333;
+  background : black;
   position: absolute;
   top: -800px;
   left: -1000px;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
   transition: all .6s ease ;
   
   &.active{
-    
+    background : black;
     border-radius: 0 0 80% 0;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+   
   }
 `

@@ -9,11 +9,7 @@
     z-index: 9999;
     border-radius: 50px;
   }
-  /*.foto-flete{
-    width: 80px;
-    border-radius: 25px;
-  }
-   */
+  
    .card{
     position: relative;
     max-width: 150px;
@@ -22,6 +18,7 @@
     color: #242329;
     text-align: center;
     border: 5px solid #fff;
+    border-radius: 15px;
     overflow: hidden;
 }
 .card__data{
@@ -78,12 +75,19 @@
     .flete{
         position: fixed;
         bottom: 0;
-        left: 0;
+        left: auto;
+        right: 15px;
         
-        margin:0 0 15px 170px;
+        
        
         padding: 5px;
         z-index: 9999;
         border-radius: 50px;
       }
+      .card{
+       
+        max-width: 120px;
+        height: 60px;
+        border-radius: 15px;
     }
+}

@@ -7,7 +7,8 @@
     justify-content: center;
     margin-top: 50px;
     font-size: 50px;
-  
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff;
+
     position: relative;
     color: black;
     font-family: 'Lobster', cursive;
@@ -69,6 +70,7 @@
     font-size: 20px;
     padding: 30px;
     border: solid 1px black;
+    border-radius: 10px;
     margin: 20px;
     background-color:  rgba(101, 238, 174, 0.383);
 }
