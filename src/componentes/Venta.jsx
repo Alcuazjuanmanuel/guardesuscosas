@@ -9,7 +9,7 @@ const Venta = () => {
       <article className="card">
         <img src={Venta1} alt="" className='card__img' />
     <div className="card__data">
-        <h4 className="card__title">Venta de muebles usados</h4>
+        <h4 className="card__title">Venta muebles usados</h4>
         
         
     </div>

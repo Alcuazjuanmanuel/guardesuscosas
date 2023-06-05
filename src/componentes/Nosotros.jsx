@@ -8,7 +8,7 @@ const Nosotros = () => {
   <h1 className="titulo">
     Guardesuscosas
     <div className="rotate-words">
-    <span className="d0s">ahorre espacio.</span>
+    <span className="d0s">ahorre espacio</span>
             
     </div>
 

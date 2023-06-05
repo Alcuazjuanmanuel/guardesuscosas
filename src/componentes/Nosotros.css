@@ -6,15 +6,12 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-size: 50px;
-    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff;
-
+    font-size: 50px;       
     position: relative;
     color: black;
     font-family: 'Lobster', cursive;
    
-
-}
+   }
 .rotate-words{
     display: inline;
     margin-left: 10px;

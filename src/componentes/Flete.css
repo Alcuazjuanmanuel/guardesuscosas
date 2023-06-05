@@ -76,18 +76,17 @@
         position: fixed;
         bottom: 0;
         left: auto;
-        right: 15px;
-        
-        
-       
+        right: 15px;        
         padding: 5px;
         z-index: 9999;
         border-radius: 50px;
       }
       .card{
-       
         max-width: 120px;
         height: 60px;
         border-radius: 15px;
+    }
+    .card__title{
+        font-size: 10px;
     }
 }
